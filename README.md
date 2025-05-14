@@ -23,10 +23,10 @@ Integrates with MySQL to store input data and model predictions.
 Automatically creates a table (if not present) and logs each prediction with full customer detail for future analysis.
 
 🛠 Tech Stack
-Python
-Streamlit – For the interactive web interface
-scikit-learn – For training the machine learning model
-pandas – For data manipulation
-pickle – For saving and loading models and encoders
-MySQL – For storing prediction logs
-LabelEncoder & OneHotEncoder – For preprocessing categorical data
+1.Python
+2.Streamlit – For the interactive web interface
+3.scikit-learn – For training the machine learning model
+4.pandas – For data manipulation
+5.pickle – For saving and loading models and encoders
+6.MySQL – For storing prediction logs
+7.LabelEncoder & OneHotEncoder – For preprocessing categorical data
