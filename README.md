@@ -1,4 +1,3 @@
-Telecom Customer Churn Prediction Web App
 The Telecom Customer Churn Prediction project is a machine learning application designed to predict whether a telecom customer is likely to churn based on their account information and usage behavior. The goal is to help telecom businesses proactively identify at-risk customers and take necessary actions to improve retention.
 
 🔍 Project Overview
