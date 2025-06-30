@@ -8,16 +8,16 @@ import pickle
 dataset=pd.read_csv("D:\Projects\Churn Prediction\Dataset 1\Telco Customer Churn\WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 
-# Converingt TotalCharges to numeric]
+# Converting TotalCharges to numeric
 dataset["TotalCharges"] = pd.to_numeric(dataset["TotalCharges"], errors="coerce")
 
-# Dropiing rows with missing TotalCharges values
+# Droping rows with missing TotalCharges values
 dataset.dropna(subset=["TotalCharges"], inplace=True)
 
 # Droping the customerID column
 if 'customerID' in dataset.columns:
     dataset.drop("customerID", axis=1, inplace=True)
-#assing the features in the X and the labels in y
+#assigning the features in the X and the labels in y
 X = dataset.drop("Churn", axis=1)
 y = dataset["Churn"]
 
